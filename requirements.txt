@@ -1,0 +1,11 @@
+pytest
+pytest-html
+jinja2
+
+flake8
+flake8-quotes
+flake8-docstrings
+flake8-isort
+flake8-polyfill
+flake8-blind-except
+
