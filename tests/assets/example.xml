@@ -1,0 +1,28 @@
+<one>
+    <two>
+        <three>
+            <name>Barney</name>
+        </three>
+        <four>
+            <age>37</age>
+        </four>
+        <five>
+            <six>
+                <color>Blue</color>
+            </six>
+        </five>
+    </two>
+    <two>
+        <three>
+            <name>Judith</name>
+        </three>
+        <four>
+            <age>48</age>
+        </four>
+        <five>
+            <six>
+                <color>Green</color>
+            </six>
+        </five>
+    </two>
+</one>

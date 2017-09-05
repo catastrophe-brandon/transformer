@@ -97,3 +97,13 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# ignore PyCharm metadata
+.idea/
+
+# ignore test report
+results.html
+test_results.html
+
+# Yet another
+.DS_Store

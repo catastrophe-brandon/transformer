@@ -1,6 +1,7 @@
 pytest
 pytest-html
 jinja2
+git+https://github.com/denisenkom/pytds.git@aaf2c561ab1ce1bb730b7bb397fe88d1b7b2a375
 
 flake8
 flake8-quotes
@@ -8,4 +9,6 @@ flake8-docstrings
 flake8-isort
 flake8-polyfill
 flake8-blind-except
+
+pytest-cov
 

@@ -1,0 +1,34 @@
+{
+  "columns": [
+    {
+      "dbColumnName": "blah",
+      "type": "String",
+      "inputIndex": 0
+    },
+    {
+      "dbColumnName": "blah2",
+      "type": "Integer",
+      "inputIndex": 1
+    },
+    {
+      "dbColumnName": "blah3",
+      "type": "Integer",
+      "inputIndex": 2
+    },
+    {
+      "dbColumnName": "blah4",
+      "type": "Decimal",
+      "inputIndex": 3
+    },
+    {
+      "dbColumnName": "blah5",
+      "type": "Decimal",
+      "inputIndex": 4
+    },
+    {
+      "dbColumnName": "blah6",
+      "type": "Decimal",
+      "inputIndex": 5
+    }
+  ]
+}

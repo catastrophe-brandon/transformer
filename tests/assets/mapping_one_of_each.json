@@ -1,0 +1,24 @@
+{
+  "columns": [
+    {
+      "dbColumnName": "String",
+      "type": "String",
+      "inputIndex": 0
+    },
+    {
+      "dbColumnName": "Integer",
+      "type": "Integer",
+      "inputIndex": 1
+    },
+    {
+      "dbColumnName": "Date",
+      "type": "Date",
+      "inputIndex": 2
+    },
+    {
+      "dbColumnName": "Decimal",
+      "type": "Decimal",
+      "inputIndex": 3
+    }
+  ]
+}

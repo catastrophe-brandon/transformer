@@ -1,0 +1,24 @@
+{
+  "columns": [
+    {
+      "dbColumnName": "blah",
+      "type": "String",
+      "inputXpath": "TODO"
+    },
+    {
+      "dbColumnName": "blah2",
+      "type": "Integer",
+      "inputXpath": "TODO"
+    },
+    {
+      "dbColumnName": "blah3",
+      "type": "Date",
+      "inputXpath": "TODO"
+    },
+    {
+      "dbColumnName": "blah4",
+      "type": "Decimal",
+      "inputXpath": "TODO"
+    }
+  ]
+}

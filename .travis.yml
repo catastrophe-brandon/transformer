@@ -4,4 +4,4 @@ python:
 install:
         pip install -U tox
 script:
-        tox
+        tox -re travis

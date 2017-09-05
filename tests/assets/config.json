@@ -1,0 +1,8 @@
+{
+  "successDir": "success/",
+  "failureDir": "failure/",
+  "server": "localhost",
+  "user": "test",
+  "password": "test",
+  "database": "sometaterbase"
+}
