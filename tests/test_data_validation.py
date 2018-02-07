@@ -1,6 +1,7 @@
 
 
-from p5000.data_validation import XPathValidator, validate_data, validate_tuple_data
+from p5000.data_validation import (XPathValidator, validate_data, validate_single_tuple,
+                                   validate_tuple_data)
 from p5000.mapping_validation import validate_mapping_configuration
 
 
@@ -33,7 +34,16 @@ def test_validate_tuple_data_with_bad_data():
 
 def test_validate_single_tuple():
     """Test function to validate a single tuple."""
-    pass
+    mapping_configuration = validate_mapping_configuration('tests/assets/mapping_one_of_each.json')
+    single_tuple = ('Pizza', 6667, '2245-08-29', 2.73)
+    assert validate_single_tuple(single_tuple, mapping_configuration)
+
+
+def test_validate_single_tuple_bad_tuple():
+    """Confirm function to validate a tuple fails when given a bad tuple."""
+    mapping_configuration = validate_mapping_configuration('tests/assets/mapping_one_of_each.json')
+    single_tuple = ('2245-08-29', 'Pizza', 2.73, 888)
+    assert not validate_single_tuple(single_tuple, mapping_configuration)
 
 
 def test_validate_data_good_integer():
